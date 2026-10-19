@@ -1,5 +1,24 @@
 # AI 专利写作方法修改记录
 
+
+## 20261019
+
+### 问题
+
+附图要求需写明：使用 draw.io 生成附图，再导出 PNG 图片。
+
+### 修改
+
+已更新 `AI专利写作方法-20261013.md` 第3节「附图说明」：
+
+1. 正式附图**强制使用 draw.io** 绘制（桌面版或 https://app.diagrams.net/）；
+2. 画完后 **File → Export as → PNG** 导出，放入说明书 `images/`，markdown 按 `![图N](images/图N.png)` 引用；
+3. 不再将 PPT／Visio／matplotlib／仅 mermaid 渲染列为正式附图可选工具（mermaid 仍可用于对齐节点的草图）；
+4. 图中公式／符号排版亦以 draw.io 为准。
+
+文首增加 2026-10-19 修订说明。
+
+
 ## 20261013
 
 ### 问题
